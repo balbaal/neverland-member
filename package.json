@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "dev": "react-scripts start",
+    "dev": "react-scripts start && npm run watch:tailwind",
     "watch:tailwind": "postcss --watch tailwindcss/style.css -o src/assets/css/style.output.css",
     "build": "react-scripts build",
     "test": "react-scripts test",
